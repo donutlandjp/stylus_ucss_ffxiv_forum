@@ -3,7 +3,7 @@
 @description  This stylesheet seals evil horizontal scroll bars.
 @namespace    donutland.jp/edl
 @author       Anne Donut
-@version      1.0.4
+@version      1.0.5
 @license      MIT
 @preprocessor stylus
 
@@ -1484,6 +1484,7 @@ ol.searchbits dl.threadlastpost > dd > a:nth-child(2) img {
 	display: flex;
 	flex-direction : column;
 	justify-content: space-between;
+	word-break: break-word;
 }
 .postbody .postrow {
 	font-family: inherit !important;
@@ -2659,8 +2660,8 @@ if authorDisplayMode == compact {
 		}
 
 		.userinfo dl.userinfo_extra {
-            grid-column: 3;
-            grid-row   : 1;
+			grid-column: 3;
+			grid-row   : 1;
 			display: grid;
 			grid-template-columns: max-content max-content;
 			align-items: center !important;
