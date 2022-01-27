@@ -3,7 +3,7 @@
 @description  This stylesheet seals evil horizontal scroll bars.
 @namespace    donutland.jp/edl
 @author       Anne Donut
-@version      1.0.5
+@version      1.0.6
 @license      MIT
 @preprocessor stylus
 
@@ -86,6 +86,8 @@ body {
 }
 #forum_logo {
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .body_bound {
 	width    : var(--max-body-width);
